@@ -61,7 +61,7 @@ class _BmiCalcState extends State<BmiCalc> {
           calculate();
         });
         },
-          child: Text('calculate')),
+          child: Text(' click to calculate')),
         Text(result.toString())
       ],),
     );
